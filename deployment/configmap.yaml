@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-configmap
+data:
+  DB_NAME: postgres
+  DB_USER: <ENTER YOUR USER NAME HERE>
+  DB_HOST: <ENTER YOUR DB HOST HERE>
+  DB_PORT: 5432
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: env-secret
+type: Opaque
+data:
+  DB_PASSWORD: <OUTPUT OF `echo -n 'the password' | base64`>
