@@ -109,6 +109,8 @@ The benefit here is that it's explicitly set. However, note that the `DB_PASSWOR
 
 ### Deployment
 cd deployment
+```bash
 kubectl apply -f env-configmap.yaml
 kubectl apply -f env-secret.yaml
 kubectl apply -f coworking.yaml
+```
