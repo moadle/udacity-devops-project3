@@ -4,7 +4,7 @@ metadata:
   name: env-configmap
 data:
   DB_NAME: postgres
-  DB_USER: <ENTER YOUR USER NAME HERE>
+  DB_USER: postgres
   DB_HOST: <ENTER YOUR DB HOST HERE>
   DB_PORT: 5432
 ---
@@ -14,4 +14,4 @@ metadata:
   name: env-secret
 type: Opaque
 data:
-  DB_PASSWORD: <OUTPUT OF `echo -n 'the password' | base64`>
+  DB_PASSWORD: XkE1Q3RX
