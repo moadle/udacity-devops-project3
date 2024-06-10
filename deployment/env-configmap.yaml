@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: env-configmap
 data:
-  DB_NAME: coworkingdb
-  DB_USER: daominh
-  DB_HOST: 10.100.85.236
-  DB_PORT: 5432
+  DB_NAME: "coworkingdb"
+  DB_USERNAME: "daominh"
+  DB_HOST: "10.100.85.236"
+  DB_PORT: "5432"
