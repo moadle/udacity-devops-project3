@@ -111,6 +111,7 @@ The benefit here is that it's explicitly set. However, note that the `DB_PASSWOR
 ```bash
 cd deployment
 ```
+
 Run the following commands one by one in order
 ```bash
 kubectl apply -f env-configmap.yaml
